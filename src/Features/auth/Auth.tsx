@@ -54,7 +54,7 @@ const Auth: FC = () => {
       <form onSubmit={handleSubmit(submitForm)} className="ls-form">
         <React.Fragment>
           <label htmlFor="username">Username</label>
-          <input ref={register} className="d-input" type="text" id="username" placeholder="username" />
+          <input ref={register} className="d-i" type="text" id="username" placeholder="username" />
           {errors && errors.username && (
             <p className="error">{errors.username.message}</p>
           )}
@@ -62,7 +62,7 @@ const Auth: FC = () => {
         {!isLogin && (
           <React.Fragment>
             <label htmlFor="email">Email</label>
-            <input ref={register} className="d-input" type="text" id="email" placeholder="Email" />
+            <input ref={register} className="d-i" type="text" id="email" placeholder="Email" />
             {errors && errors.email && (
               <p className="error">{errors.email.message}</p>
             )}
@@ -70,7 +70,7 @@ const Auth: FC = () => {
         )}
         <React.Fragment>
           <label htmlFor="password">Password</label>
-          <input ref={register} className="d-input" type="password" id="password" placeholder="password" />
+          <input ref={register} className="d-i" type="password" id="password" placeholder="password" />
           {errors && errors.password && (
             <p className="error">{errors.password.message}</p>
           )}
@@ -79,7 +79,7 @@ const Auth: FC = () => {
           {isLogin ? 'Login' : 'Create account'}
         </button>
         <p onClick={() => setIsLogin(!isLogin)} className="forget">
-          <a className="d-a" href="#!">
+          <a className="d-a">
             {isLogin ? 'No account? Create one' : 'Already have an account?'}
           </a>
         </p>

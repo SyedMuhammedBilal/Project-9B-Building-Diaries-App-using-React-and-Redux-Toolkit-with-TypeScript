@@ -2,6 +2,8 @@ import React, { FC, lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { RootState } from '../rootReducer';
+import Loading from '../Components/Loading';
+import Homepage from '../Components/Homepage';
 
 const Auth = lazy(() => import('../Features/auth/Auth'));
 const Home = lazy(() => import('../Features/home/home'));
@@ -13,9 +15,10 @@ const App: FC = () => {
 
   return (
     <Router>
+    <Route exact path="/" component={Homepage} />
       <Switch>
         <Route path="/">
-          <Suspense fallback={<h3>Loading...</h3>}>
+          <Suspense fallback={<Loading />}>
             {
               isLoggedIn ? <Home /> : <Auth />
             }

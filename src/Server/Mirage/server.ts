@@ -54,8 +54,8 @@ export const setupServer = (env?: string): Server => {
       this.post('/diaries/', diary.create);
       this.post('/diaries/entry/:id', diary.addEntry);
       
-      this.post('/diaries/entry/:id', diary.updateEntry);
-      this.post('/diaries/:id', diary.updateEntry);
+      this.put('/diaries/entry/:id', diary.updateEntry);
+      this.put('/diaries/:id', diary.updateDiary);
     }
   })
 };

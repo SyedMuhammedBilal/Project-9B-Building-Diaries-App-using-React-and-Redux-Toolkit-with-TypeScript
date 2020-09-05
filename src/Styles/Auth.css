@@ -6,10 +6,10 @@
 }
 
 .ls-form {
-    display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    width: 50vh;
     box-shadow: 7px 7px 15px rgba(55, 84, 170, .15),
                 -7px -7px 20px #fff,
                 0 0 4px rgba(255, 255, 255, .2);
@@ -19,7 +19,7 @@
 
 .ls-form label {
     font-size: 20px;
-    color: #1cb2eb;
+    color: #1e2c70;
     margin: 20px 0 0 5px;
 }
 
@@ -27,7 +27,7 @@
     margin-top: 20px;
 }
 
-.d-input {
+.d-i {
     box-shadow: 2px 2px 3px rgba(55, 84, 170, .15),
                 inset 0 0 4px rgba(255, 255, 255, 0),
                 inset 7px 7px 15px rgba(55, 84, 170, .15),
@@ -35,7 +35,7 @@
                 0 0 4px rgba(255, 255, 255, .2);
     border-radius: 10px;
     border: 3px solid #f3f4f7;
-    margin: 10px 0;
+    margin: 20px 0;
     padding: 10px 20px;
     color: #6d7587;
     outline: none;
@@ -47,15 +47,15 @@
 }
 
 .d-a {
-    color: #f729b2;
+    color: #c44b4b;
     text-decoration: none;
 }
 
 .d-btn {
     margin: 0 auto;
     margin-top: 30px;
-    font-size: 20px;
-    color: #1cb2eb;
+    font-size: 15px;
+    color: #247bb0;
     padding: 10px 40px;
     border-radius: 40px;
     border: none;

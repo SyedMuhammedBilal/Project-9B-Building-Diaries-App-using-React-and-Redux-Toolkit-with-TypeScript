@@ -1,0 +1,18 @@
+.diary-title-in {
+    box-shadow: -10px -6px 20px rgba(255, 255, 255, 1),
+                20px 10px 20px rgba(10, 10, 10, .1);
+    margin-top: 9%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.entry-btn {
+    font-size: 0.7em;
+    margin: 0 0.5em;
+    background-image: linear-gradient(326deg, rgba(74,59,186,1) 0%, rgba(121,183,218,1) 100%);
+}
+
+.va-btn {
+    font-size: 0.7em;
+    background: linear-gradient(90deg, rgba(255,224,179,1) 0%, rgba(196,75,75,1) 100%);
+}
