@@ -15,7 +15,7 @@ const App: FC = () => {
 
   return (
     <Router>
-    <Route exact path="/" component={Homepage} />
+      <Route exact path="/" component={Homepage} />
       <Switch>
         <Route path="/">
           <Suspense fallback={<Loading />}>

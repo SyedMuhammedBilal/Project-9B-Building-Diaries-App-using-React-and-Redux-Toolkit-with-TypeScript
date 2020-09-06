@@ -9,32 +9,32 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <a href="/login" className="nav-link">
-              <Book />
-              <span className="link-text">Diary</span> 
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="/login" className="nav-link">
-              <Account />
-              <span className="link-text">Login</span> 
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="/" className="nav-link">
-              <Bell />
-              <span className="link-text">Notification</span> 
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="/" className="nav-link">
-              <Call />
-              <span className="link-text">Contact</span> 
-            </a>
-          </li>
-        </ul>
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a href="/login" className="nav-link">
+                <Book />
+                <span className="link-text">Diary</span> 
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="/login" className="nav-link">
+                <Account />
+                <span className="link-text">Login</span> 
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="/" className="nav-link">
+                <Bell />
+                <span className="link-text">Notification</span> 
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="/" className="nav-link">
+                <Call />
+                <span className="link-text">Contact</span> 
+              </a>
+            </li>
+          </ul>
       </nav> 
     </>
   )
