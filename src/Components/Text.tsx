@@ -12,7 +12,7 @@ function Text() {
                 <h2 className="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">Diary App</h2>
                 <h1 className="title-font text-xl font-medium text-gray-900 mb-3">React & Redux-Toolkit</h1>
                 <p className="leading-relaxed mb-5">The application will allow authenticated users to create or modify existing diaries.</p>
-                <a className="inline-flex items-center">
+                <a href="!" className="inline-flex items-center">
                 </a>
               </div>
             </div>
@@ -23,7 +23,7 @@ function Text() {
                 <h2 className="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">Diary App</h2>
                 <h1 className="title-font text-xl font-medium text-gray-900 mb-3">Formik and YUP</h1>
                 <p className="leading-relaxed mb-5">Diaries are private by default, but they can be made public. Finally, diary entries will be sorted by their last modified date.</p>
-                <a className="inline-flex items-center">
+                <a href="!" className="inline-flex items-center">
                 </a>
               </div>
             </div>

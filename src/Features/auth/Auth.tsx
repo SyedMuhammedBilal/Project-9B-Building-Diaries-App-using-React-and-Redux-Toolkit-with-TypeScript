@@ -79,7 +79,7 @@ const Auth: FC = () => {
           {isLogin ? 'Login' : 'Create account'}
         </button>
         <p onClick={() => setIsLogin(!isLogin)} className="forget">
-          <a className="d-a">
+          <a href="!" className="d-a">
             {isLogin ? 'No account? Create one' : 'Already have an account?'}
           </a>
         </p>
