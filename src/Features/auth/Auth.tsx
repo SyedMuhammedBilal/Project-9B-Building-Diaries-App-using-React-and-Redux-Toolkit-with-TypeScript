@@ -8,7 +8,6 @@ import { saveToken, setAuthState } from './authSlice';
 import { setUser } from './userSlice';
 import { AuthResponse } from '../../Server/Mirage/Routes/user';
 import { useAppDispatch } from '../../Store/store';
-import { register } from '../../serviceWorker';
 
 const schema = Yup.object().shape({
   username: Yup.string()
@@ -19,6 +18,7 @@ const schema = Yup.object().shape({
   email: Yup.string()
     .email('Please enter a valid email address'),
 });
+console.log(schema)
 
 const Auth: FC = () => {
 

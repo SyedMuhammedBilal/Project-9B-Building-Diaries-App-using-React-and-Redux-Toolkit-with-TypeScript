@@ -8,7 +8,7 @@ import Swal from 'sweetalert2';
 import { setUser } from '../auth/userSlice';
 import DiaryTile from './DiaryTitle';
 import { User } from '../../Interfaces/user.interface';
-import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import DiaryEntriesList from './DiariesEntriesList';
 import { useAppDispatch } from '../../Store/store';
 import dayjs from 'dayjs';
